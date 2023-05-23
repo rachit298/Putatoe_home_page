@@ -1,0 +1,17 @@
+.psp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.psp--cards {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.psp--cards::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,10 @@
+.swp {
+  margin-top: 15px;
+}
+
+.swp--cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+}

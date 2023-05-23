@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  bottom: -.5px;
+  padding: 3px 0 0;
+  width: 390px;
+  box-shadow: 0 0px 0px .1px grey;
+  background-color: white;
+  z-index: 15;
+}
+
+.footer--home,
+.footer--profile,
+.footer--logo,
+.footer--follow,
+.footer--chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 25px;
+}
+
+.footer--logo {
+  position: relative;
+  top: -5px;
+  border-radius: 5px;
+  background-color: #02acbb;
+  width: 45px;
+  height: 60px;
+  -webkit-transform: perspective(200px) rotateX(35deg);
+}
+
+.footer--logo--image {
+  position: absolute;
+  height: 52px;
+}

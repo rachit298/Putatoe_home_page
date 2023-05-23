@@ -1,0 +1,73 @@
+.upper-part,
+.lower-part {
+  background: #02acbb;
+}
+
+.upper-part {
+  padding: 10px 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header--upper-part {
+  width: 250px;
+  border: 1px solid white;
+  border-radius: 7px;
+  background: #02acbb;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  outline: none;
+  padding: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+.bellicon {
+  display: flex;
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  border: none;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.lower-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  position: sticky;
+  top: 0;
+}
+
+.lower-inputsection {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.lower-part--search {
+  margin-left: 2px;
+  margin-right: 20px;
+}
+
+.header--lower-part--input {
+  border: none;
+  outline: none;
+}

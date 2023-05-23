@@ -1,0 +1,20 @@
+.psp--card-body {
+  min-width: 90px;
+  padding: 10px 5px 20px;
+  background-color: white;
+  margin-right: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  text-align: center;
+}
+
+.psp--card-body--image {
+  margin-bottom: 5px;
+}
+
+.psp--card-body:last-child {
+  margin-right: 0;
+}
