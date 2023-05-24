@@ -5,7 +5,6 @@ import "../../Styles/CommonStyles.css";
 import PSP from "./PSP/PSP";
 import APSP from "./APSP/APSP";
 import ServicesWP from "./ServicesWP/ServicesWP";
-import Chat from "./Chat/Chat";
 
 function MiddlePart() {
   return (
@@ -21,7 +20,6 @@ function MiddlePart() {
           <PSP />
           <APSP />
           <ServicesWP />
-          <Chat />
         </div>
       </div>
     </>
