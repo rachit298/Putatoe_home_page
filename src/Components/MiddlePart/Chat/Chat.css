@@ -7,8 +7,8 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0 5px 10px 0 grey;
-  position: absolute;
-  right: 100px;
-  bottom: 175px;
+  position: sticky;
+  bottom: 95px;
+  left: 310px;
   z-index: 15;
 }
